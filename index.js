@@ -1,5 +1,5 @@
 const heading = document.getElementById('heading');
 
-setTimeOut(()=>{
+setTimeout(()=>{
   heading.innerHTML = 'This is heading';
 },2000)
